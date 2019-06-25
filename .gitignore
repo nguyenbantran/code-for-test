@@ -1,0 +1,11 @@
+/bin/
+/target/
+.project
+.classpath
+.settings
+.idea/
+*.iml
+/logs/
+.vertx/
+hs_err*
+.test/*
