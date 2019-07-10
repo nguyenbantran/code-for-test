@@ -11,4 +11,12 @@ public class LongEventTest {
         LongEvent longEvent = new LongEvent();
         longEvent.set(1L);
     }
+
+    @Test public void test() {
+        Integer i1 = Integer.valueOf(1000);
+        Integer i2 = Integer.valueOf(1000);
+        assertFalse(i1 == i2);
+    }
+
+
 }

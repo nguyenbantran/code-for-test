@@ -34,7 +34,7 @@ public class LongEventMain
         {
             bb.putLong(0, l);
             producer.onData(bb);
-            Thread.sleep(300);
+            Thread.sleep(10);
         }
     }
 }
